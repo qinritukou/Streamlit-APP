@@ -17,6 +17,9 @@ stream lit app demo
 ### install package 
     pipenv install streamlit
     pipenv install shell
+    pipenv install WordCloud
+    pipenv run python3 -m spacy download en_core_web_sm
+
 
 ### run 
     pipenv run streamlit run iris-eda-app.py

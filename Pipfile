@@ -11,6 +11,11 @@ pandas = "*"
 matplot = "*"
 seaborn = "*"
 matplotlib = "*"
+joblib = "*"
+scikit-learn = "*"
+spacy = "*"
+nltk = "*"
+wordcloud = "*"
 
 [requires]
 python_version = "3.8"
