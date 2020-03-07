@@ -14,6 +14,11 @@ st.text("Built with Streamlit")
 st.header("EDA App")
 st.subheader("Iris Dataset")
 
+# Videos 
+vid_file = open("example.mp4", "rb").read()
+st.video(vid_file)
+
+
 # EDA 
 my_dataset = './datasets/iris.csv'
 

@@ -24,5 +24,4 @@ stream lit app demo
 ### heroku
     heroku login
     heroku create <app-name>
-    git push heroku master    
     
