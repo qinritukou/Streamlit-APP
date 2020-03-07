@@ -17,6 +17,12 @@ stream lit app demo
 ### install package 
     pipenv install streamlit
     pipenv install shell
-    
+
 ### run 
-    'pipenv run streamlit run iris-eda-app.py'
+    pipenv run streamlit run iris-eda-app.py
+
+### heroku
+    heroku login
+    heroku create <app-name>
+    git push heroku master    
+    
