@@ -1,3 +1,3 @@
 web: gunicorn hello:app
-web: sh setup.sh && streamlit run face_detection.py
+web: sh setup.sh && streamlit run iris-eda-app.py
 
