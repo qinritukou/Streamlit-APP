@@ -1,5 +1,7 @@
 mkdir -p ~/.streamlit/
 
+pip install --upgrade pip
+
 echo "\
 [server]\n\
 headless=true\n\
