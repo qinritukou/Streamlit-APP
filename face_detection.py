@@ -117,14 +117,14 @@ if choice == 'Detection':
         if st.button("Process"):
             if feature_choice == 'Faces':
                 result_img, result_faces = detect_faces(our_image)
-                st.image(result_img)
+                st.image(result_img, width=300)
                 st.success("Found {} faces".format(result_faces))
             if feature_choice == 'Smiles':
                 result_img, result_eyes = detect_smiles(our_image)
-                st.image(result_img)
+                st.image(result_img, width=300)
             if feature_choice == 'Eyes':
                 result_img, eyes = detect_eyes(our_image)
-                st.image(result_img)
+                st.image(result_img, width=300)
             if feature_choice == 'Cartonize':
                 result_img = cartonize_image(our_image)
                 st.image(result_img, width=300)
